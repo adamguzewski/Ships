@@ -36,6 +36,10 @@ public class DummyRouteRepository implements IRouteRepository{
 
     @Override
     public Route ofHarbour(Harbour harbour) {
+        for(Route i: db.routes){
+            if(i.getAvailablePorts()==harbour)
+                return i;
+        }
         return null;
     }
 

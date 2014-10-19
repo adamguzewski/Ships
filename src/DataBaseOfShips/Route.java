@@ -59,12 +59,20 @@ public class Route extends Entity{
         this.shipsOnRoute = shipsOnRoute;
     }
 
+    public void addShipsOnRoute(Ship ship){
+        this.shipsOnRoute.add(ship);
+    }
+
     public List<Harbour> getAvailablePorts() {
         return availablePorts;
     }
 
     public void setAvailablePorts(List<Harbour> availablePorts) {
         this.availablePorts = availablePorts;
+    }
+
+    public void addAvailablePorts(Harbour harbour){
+        this.availablePorts.add(harbour);
     }
 
     public int getPrice() {
@@ -74,4 +82,6 @@ public class Route extends Entity{
     public void setPrice(int price) {
         this.price = price;
     }
+
+
 }

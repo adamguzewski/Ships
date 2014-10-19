@@ -7,6 +7,7 @@ public class Harbour extends Entity{
 
     public List<Ship> ships;
 
+
     public Harbour(){
         setId(1);
         name = "QueensPort";

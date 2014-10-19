@@ -27,6 +27,7 @@ public class Ship extends Entity{
         numberOfCrew = "220";
         this.employees= new ArrayList<Employee>();
         route = null;
+
     }
 
     private Harbour harbour;
