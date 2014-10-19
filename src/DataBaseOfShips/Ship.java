@@ -3,7 +3,7 @@ package DataBaseOfShips;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ship {
+public class Ship extends Entity{
 
     private String name;
     private String size;
@@ -12,11 +12,21 @@ public class Ship {
     private String maxSpeed;
     private String maxCharge;
     private String numberOfCrew;
+    private Route route;
 
     private List<Employee> employees;
 
     public Ship(){
+        setId(1);
+        name = "Titanic";
+        size = "450m";
+        type = "Tourist";
+        weight = "2000T";
+        maxSpeed = "40mph/h";
+        maxCharge = "Unknown";
+        numberOfCrew = "220";
         this.employees= new ArrayList<Employee>();
+        route = null;
     }
 
     private Harbour harbour;
@@ -91,5 +101,13 @@ public class Ship {
 
     public void setHarbour(Harbour harbour) {
         this.harbour = harbour;
+    }
+
+    public Route getRoute() {
+        return route;
+    }
+
+    public void setRoute(Route route) {
+        this.route = route;
     }
 }

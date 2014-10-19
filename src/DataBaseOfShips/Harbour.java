@@ -3,11 +3,17 @@ package DataBaseOfShips;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Harbour {
+public class Harbour extends Entity{
 
     public List<Ship> ships;
 
     public Harbour(){
+        setId(1);
+        name = "QueensPort";
+        place = "London";
+        size = "200";
+        numberOfShips = "20";
+        numberOfEmployees = "300";
         this.ships = new ArrayList<Ship>();
     }
 

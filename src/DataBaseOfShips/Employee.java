@@ -1,20 +1,48 @@
 package DataBaseOfShips;
 
-public class Employee {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Employee extends Entity{
 
     private String firstName;
     private String surName;
     private String position;
     private String age;
-    private String shipName;
     private String city;
     private String country;
     private String street;
     private String houseNumber;
     private String localNumber;
     private String postalCode;
+    private User user;
+    private List<Ship> ships;
 
-    private Ship ship;
+
+    public Employee(){
+        firstName = "Jan";
+        surName = "Kowalski";
+        position = "Captain";
+        age = "43";
+        city = "Miami";
+        country = "USA";
+        street = "Beautiful st.";
+        houseNumber = "3";
+        localNumber = null;
+        postalCode = "20-2020";
+        setId(1);
+        user = new User();
+        this.ships = new ArrayList<Ship>();
+
+    }
+
+    public User getUser(){
+        return user;
+    }
+
+    public void setUser(User user){
+        this.user = user;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -46,14 +74,6 @@ public class Employee {
 
     public void setAge(String age) {
         this.age = age;
-    }
-
-    public String getShipName() {
-        return shipName;
-    }
-
-    public void setShipName(String shipName) {
-        this.shipName = shipName;
     }
 
     public String getCity() {
@@ -104,11 +124,11 @@ public class Employee {
         this.postalCode = postalCode;
     }
 
-    public Ship getShip() {
-        return ship;
+    public List<Ship> getShips() {
+        return ships;
     }
 
-    public void setShip(Ship ship) {
-        this.ship = ship;
+    public void setShips(List<Ship> ships) {
+        this.ships = ships;
     }
 }

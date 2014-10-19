@@ -1,11 +1,25 @@
 package DataBaseOfShips;
 
-public class User {
+public class User extends Entity{
 
     private String login;
     private String password;
+    private Employee employee;
+    private String username;
 
-    private Harbour harbour;
+    public User(){
+        username = "admin";
+        setId(1);
+    }
+
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
     public String getLogin() {
         return login;
@@ -23,11 +37,13 @@ public class User {
         this.password = password;
     }
 
-    public Harbour getHarbour() {
-        return harbour;
+    public Employee getEmployee() {
+        return employee;
     }
 
-    public void setHarbour(Harbour harbour) {
-        this.harbour = harbour;
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
     }
+
+
 }
