@@ -8,6 +8,17 @@ import java.util.List;
 public class Main {
     public static void main(String args[]){
 
+
+        Employee pracownik = new Employee();
+        pracownik.setFirstName("Janek");
+        pracownik.setSurName("Kowal");
+        Employee kowalski = new Employee();
+
+        kowalski.setSurName("Nowak");
+        kowalski.setFirstName("Edward");
+        kowalski.setId(2);
+
+
         Ship titanic = new Ship();
         Route dookolaswiata = new Route();
         User admin = new User();
@@ -38,12 +49,38 @@ public class Main {
         londyn.setNumberOfEmployees("20");
 
         IRepositoriesCatalog catalog = new DummyRepositoriesCatalog();
+
+        catalog.getEmployee().add(pracownik);
+
         catalog.getShip().add(titanic);
         catalog.getHarbour().add(londyn);
         catalog.getShip().add(liniowiec1);
         catalog.getRoute().add(dookolaswiata);
+        titanic.addEmployees(pracownik);
+        kowalski.setShip(liniowiec1);
+        liniowiec1.addEmployees(kowalski);
 
-        System.out.println(catalog.getShip().get(2).getName()+" "+catalog.getShip().byRoute(1).getName());
+        pracownik.setShip(titanic);
+        titanic.addEmployees(kowalski);
+        pracownik.setId(1);
 
+        for(Employee e: titanic.getEmployees()){
+            System.out.println(e.getFirstName());
+        }
+
+        System.out.println(titanic.getEmployees());
+        /*
+        System.out.println(catalog.getShip().byEmployee(1).getName());
+        System.out.println(catalog.getShip().byEmployee(pracownik).getName());
+        System.out.println(catalog.getShip().byEmployee(kowalski).getName());
+        System.out.println(catalog.getEmployee().get(1).getFirs tName());
+*/
+       // for(Ship s: catalog.getShip().getAll()){
+         //   System.out.println(s.getName());
+        //}
+
+       // System.out.println(catalog.getShip().get(4).getName());
+
+     //   System.out.println(catalog.getShip().get(2).getName()+" "+catalog.getShip().byRoute(1).getName());
     }
 }

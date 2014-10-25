@@ -111,4 +111,8 @@ public class Ship extends Entity{
     public void setRoute(Route route) {
         this.route = route;
     }
+
+    public void addEmployees(Employee employee){
+        this.employees.add(employee);
+    }
 }

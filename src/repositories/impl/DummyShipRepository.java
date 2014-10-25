@@ -34,6 +34,28 @@ public class DummyShipRepository implements IShipRepository{
         return null;
     }
 
+    @Override
+    public Ship byEmployee(Employee employee) {
+        for(Ship s: db.ships){
+            if(s.getEmployees().contains(employee)){
+                return s;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public Ship byEmployee(int employeeId) {
+        for(Ship s: db.ships){
+            for(Employee e: s.getEmployees()){
+                if(e.getId()==employeeId){
+                    return s;
+                }
+            }
+        }
+        return null;
+    }
+
 
     @Override
     public void add(Ship entity) {
@@ -52,9 +74,9 @@ public class DummyShipRepository implements IShipRepository{
 
     @Override
     public Ship get(int id) {
-        for (Ship i: db.ships){
-            if(i.getId()==id)
-                return i;
+        for (Ship s: db.ships){
+            if(s.getId()==id)
+                return s;
         }
         return null;
     }
