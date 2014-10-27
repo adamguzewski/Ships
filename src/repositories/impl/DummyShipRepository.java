@@ -18,18 +18,22 @@ public class DummyShipRepository implements IShipRepository{
 
     @Override
     public Ship byRoute(Route route) {
-        for(Ship i: db.ships){
-            if(i.getRoute()==route)
-                return i;
+        for(Ship s: db.ships){
+            if(s.getRoutes().contains((route))){
+                return s;
+            }
         }
         return null;
     }
 
     @Override
     public Ship byRoute(int routeId) {
-        for(Ship i: db.ships){
-            if(i.getRoute().getId()==routeId)
-                return i;
+        for(Ship s: db.ships){
+            for(Route r: s.getRoutes()){
+                if(r.getId()==routeId){
+                    return s;
+                }
+            }
         }
         return null;
     }

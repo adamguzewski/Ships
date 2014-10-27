@@ -5,8 +5,8 @@ import DataBaseOfShips.*;
 
 public interface IRouteRepository extends IRepository<Route>{
 
-    public Route ofShip(Ship ship);
- //   public Route ofShip(int shipId);
-    public Route ofHarbour(Harbour harbour);
-    public Route ofHarbour(int harbourId);
+    public Route byShip(Ship ship);
+    public Route byShip(int shipId);
+    public Route byHarbour(Harbour harbour);
+    public Route byHarbour(int harbourId);
 }

@@ -14,7 +14,10 @@ public class Ship extends Entity{
     private String numberOfCrew;
     private Route route;
 
+
+    private List<Route> routes;
     private List<Employee> employees;
+    private List<Harbour> harbours;
 
     public Ship(){
         setId(1);
@@ -26,11 +29,11 @@ public class Ship extends Entity{
         maxCharge = "Unknown";
         numberOfCrew = "220";
         this.employees= new ArrayList<Employee>();
-        route = null;
+        this.routes = new ArrayList<Route>();
 
     }
 
-    private Harbour harbour;
+    //private Harbour harbour;
 
     public String getName() {
         return name;
@@ -96,13 +99,13 @@ public class Ship extends Entity{
         this.employees = employees;
     }
 
-    public Harbour getHarbour() {
-        return harbour;
-    }
+    //public Harbour getHarbour() {
+      //  return harbour;
+    //}
 
-    public void setHarbour(Harbour harbour) {
-        this.harbour = harbour;
-    }
+//    public void setHarbour(Harbour harbour) {
+  //      this.harbour = harbour;
+    //}
 
     public Route getRoute() {
         return route;
@@ -114,5 +117,20 @@ public class Ship extends Entity{
 
     public void addEmployees(Employee employee){
         this.employees.add(employee);
+    }
+
+    public List<Route> getRoutes() {
+        return routes;
+
+
+    }
+
+    public void setRoutes(List<Route> routes) {
+        this.routes = routes;
+    }
+
+
+    public void addRoute(Route route){
+        this.routes.add(route);
     }
 }

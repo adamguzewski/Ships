@@ -64,23 +64,35 @@ public class Main {
         titanic.addEmployees(kowalski);
         pracownik.setId(1);
 
-        for(Employee e: titanic.getEmployees()){
-            System.out.println(e.getFirstName());
+        dookolaswiata.addShipsOnRoute(titanic);
+        dookolaswiata.addShipsOnRoute(liniowiec1);
+
+        titanic.getRoutes().add(dookolaswiata);
+        liniowiec1.getRoutes().add(dookolaswiata);
+        titanic.setRoute(dookolaswiata);
+        titanic.getRoutes().add(dookolaswiata);
+        liniowiec1.getRoutes().add(dookolaswiata);
+
+        titanic.addRoute(dookolaswiata);
+        liniowiec1.addRoute(dookolaswiata);
+        titanic.getRoutes().add(dookolaswiata);
+
+     //   List<Ship> dookolaroute = catalog.getShip().byRoute(dookolaswiata);
+
+
+        System.out.println(catalog.getShip().byRoute(dookolaswiata).getName());
+
+
+        System.out.println(catalog.getRoute().byHarbour(londyn).getName());
+
+
+
+
+      /*  for(Ship s: catalog.getShip().byEmployee(nowak)){
+            System.out.println(s.getName());
         }
-
-        System.out.println(titanic.getEmployees());
-        /*
-        System.out.println(catalog.getShip().byEmployee(1).getName());
-        System.out.println(catalog.getShip().byEmployee(pracownik).getName());
-        System.out.println(catalog.getShip().byEmployee(kowalski).getName());
-        System.out.println(catalog.getEmployee().get(1).getFirs tName());
+/*
+        System.out.println(catalog.getShip().byRoute(dookolaswiata));
 */
-       // for(Ship s: catalog.getShip().getAll()){
-         //   System.out.println(s.getName());
-        //}
-
-       // System.out.println(catalog.getShip().get(4).getName());
-
-     //   System.out.println(catalog.getShip().get(2).getName()+" "+catalog.getShip().byRoute(1).getName());
     }
 }

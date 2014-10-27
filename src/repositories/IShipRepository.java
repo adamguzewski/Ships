@@ -2,6 +2,8 @@ package repositories;
 
 import DataBaseOfShips.*;
 
+import java.util.List;
+
 public interface IShipRepository extends IRepository<Ship>{
 
     public Ship byRoute(Route route);
@@ -11,3 +13,4 @@ public interface IShipRepository extends IRepository<Ship>{
     public Ship byEmployee(int employeeId);
 
 }
+
