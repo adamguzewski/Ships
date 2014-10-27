@@ -5,6 +5,7 @@ import DataBaseOfShips.Ship;
 import DataBaseOfShips.User;
 import repositories.IEmployeeRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DummyEmployeeRepository implements IEmployeeRepository{
@@ -17,30 +18,20 @@ public class DummyEmployeeRepository implements IEmployeeRepository{
     }
 
 
-    @Override
-    public List<Employee> ofUser(User user) {
-        return null;
-    }
-
-    @Override
-    public List<Employee> ofUser(int userId) {
-        return null;
-    }
-
-    @Override
-    public List<Employee> ofUser(String age) {
-        return null;
-    }
 
     @Override
     public List<Employee> ofShip(Ship ship) {
-
-        return null;
+        return ofShip(ship.getId());
     }
 
     @Override
     public List<Employee> ofShip(int shipId) {
-        return null;
+        for(Ship s: db.ships){
+            if(s.getId()==shipId){
+                return s.getEmployees();
+            }
+        }
+        return new ArrayList<Employee>();
     }
 
     @Override

@@ -7,9 +7,12 @@ public class User extends Entity{
     private Employee employee;
     private String username;
 
+
     public User(){
         username = "admin";
         setId(1);
+
+
     }
 
 

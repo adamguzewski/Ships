@@ -4,6 +4,7 @@ import repositories.IShipRepository;
 
 import DataBaseOfShips.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DummyShipRepository implements IShipRepository{
@@ -17,25 +18,15 @@ public class DummyShipRepository implements IShipRepository{
 
 
     @Override
-    public Ship byRoute(Route route) {
-        for(Ship s: db.ships){
-            if(s.getRoutes().contains((route))){
-                return s;
-            }
-        }
-        return null;
+    public List<Ship> byRoute(Route route) {
+        return byRoute(route.getId());
     }
 
+
+
     @Override
-    public Ship byRoute(int routeId) {
-        for(Ship s: db.ships){
-            for(Route r: s.getRoutes()){
-                if(r.getId()==routeId){
-                    return s;
-                }
-            }
-        }
-        return null;
+    public List<Ship> byRoute(int routeId) {
+     return null;
     }
 
     @Override

@@ -11,7 +11,7 @@ public class Route extends Entity{
     private int price;
 
     public List<Harbour> availablePorts;
-    public List<Ship> shipsOnRoute;
+    public List<Ship> ships;
 
     private Ship ship;
 
@@ -21,11 +21,16 @@ public class Route extends Entity{
         timeOfCrossing = "80h";
         price = 340;
         this.availablePorts = new ArrayList<Harbour>();
-        this.shipsOnRoute = new ArrayList<Ship>();
+        this.ships = new ArrayList<Ship>();
     }
 
+    public Ship getShip() {
+        return ship;
+    }
 
-
+    public void setShip(Ship ship) {
+        this.ship = ship;
+    }
 
     public String getLenght() {
         return lenght;
@@ -51,16 +56,16 @@ public class Route extends Entity{
         this.timeOfCrossing = timeOfCrossing;
     }
 
-    public List<Ship> getShipsOnRoute() {
-        return shipsOnRoute;
+    public List<Ship> getShips() {
+        return ships;
     }
 
-    public void setShipsOnRoute(List<Ship> shipsOnRoute) {
-        this.shipsOnRoute = shipsOnRoute;
+    public void setShips(List<Ship> ships) {
+        this.ships = ships;
     }
 
-    public void addShipsOnRoute(Ship ship){
-        this.shipsOnRoute.add(ship);
+    public void addShips(Ship ship){
+        this.ships.add(ship);
     }
 
     public List<Harbour> getAvailablePorts() {

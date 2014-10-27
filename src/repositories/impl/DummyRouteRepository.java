@@ -5,6 +5,7 @@ import DataBaseOfShips.*;
 import repositories.IRouteRepository;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DummyRouteRepository implements IRouteRepository{
@@ -17,25 +18,18 @@ public class DummyRouteRepository implements IRouteRepository{
     }
 
     @Override
-    public Route byShip(Ship ship) {
-        for(Route r: db.routes){
-            if(r.getShipsOnRoute().contains(ship)){
-              return r;
-            }
-        }
-        return null;
+    public List<Route> byShip(Ship ship) {
+        return byShip(ship.getId());
     }
 
     @Override
-    public Route byShip(int shipId) {
-        for(Route r: db.routes){
-            for(Ship s: r.getShipsOnRoute()){
-                if(s.getId()==shipId){
-                    return r;
-                }
+    public List<Route> byShip(int shipId) {
+        for(Ship s: db.ships){
+            if(s.getId()==shipId){
+                return s.getRoutes();
             }
         }
-        return null;
+        return new ArrayList<Route>();
     }
 
     @Override

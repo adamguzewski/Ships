@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361d4442-5cf3-4bc6-b946-ffbb4efd29b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java" afterPath="$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/impl/DummyRouteRepository.java" afterPath="$PROJECT_DIR$/src/repositories/impl/DummyRouteRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java" afterPath="$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/IEmployeeRepository.java" afterPath="$PROJECT_DIR$/src/repositories/IEmployeeRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/IRouteRepository.java" afterPath="$PROJECT_DIR$/src/repositories/IRouteRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/IShipRepository.java" afterPath="$PROJECT_DIR$/src/repositories/IShipRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBaseOfShips/Ship.java" afterPath="$PROJECT_DIR$/src/DataBaseOfShips/Ship.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBaseOfShips/Route.java" afterPath="$PROJECT_DIR$/src/DataBaseOfShips/Route.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBaseOfShips/User.java" afterPath="$PROJECT_DIR$/src/DataBaseOfShips/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ships.iws" />
@@ -75,26 +78,10 @@
       <file leaf-file-name="IRouteRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/repositories/IRouteRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Route.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Route.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1156">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DummyRepositoriesCatalog.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyRepositoriesCatalog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <folding />
+            <state line="10" column="22" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,10 +89,10 @@
       <file leaf-file-name="Ship.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Ship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="5" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-476.0" vertical-offset="0" max-vertical-offset="1717">
+            <state line="93" column="26" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0" vertical-offset="958" max-vertical-offset="1717">
               <folding>
-                <element signature="e#2512#2513#0" expanded="true" />
-                <element signature="e#2548#2549#0" expanded="true" />
+                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,23 +123,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="IEmployeeRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/repositories/IEmployeeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="7" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.4362245" vertical-offset="1172" max-vertical-offset="1768">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="49" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IEmployeeRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/repositories/IEmployeeRepository.java">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="49" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="82" column="8" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.52040815" vertical-offset="1190" max-vertical-offset="1989">
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +146,7 @@
       <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+            <state line="25" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1649">
               <folding>
                 <element signature="e#506#507#0" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
@@ -170,10 +155,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DummyEmployeeRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="31" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1105">
+              <folding>
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DummyUserRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyUserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+            <state line="8" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -214,9 +220,7 @@
         <option value="$PROJECT_DIR$/src/DataBase/Harbour.java" />
         <option value="$PROJECT_DIR$/src/DataBaseOfShips/Crew.java" />
         <option value="$PROJECT_DIR$/src/repositories/impl/IRepository.java" />
-        <option value="$PROJECT_DIR$/src/DataBaseOfShips/User.java" />
         <option value="$PROJECT_DIR$/src/repositories/IUserRepository.java" />
-        <option value="$PROJECT_DIR$/src/repositories/IEmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/IHarbourRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/impl/DummyDb.java" />
         <option value="$PROJECT_DIR$/src/DataBaseOfShips/ShipsOnRoute.java" />
@@ -226,15 +230,17 @@
         <option value="$PROJECT_DIR$/src/repositories/impl/DummyHarbourRepository.java" />
         <option value="$PROJECT_DIR$/src/DataBaseOfShips/Entity.java" />
         <option value="$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java" />
-        <option value="$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/IRepository.java" />
         <option value="$PROJECT_DIR$/src/DataBaseOfShips/Employee.java" />
+        <option value="$PROJECT_DIR$/src/DataBaseOfShips/User.java" />
+        <option value="$PROJECT_DIR$/src/repositories/IEmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/IShipRepository.java" />
-        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Route.java" />
-        <option value="$PROJECT_DIR$/src/repositories/IRouteRepository.java" />
-        <option value="$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java" />
-        <option value="$PROJECT_DIR$/src/repositories/impl/DummyRouteRepository.java" />
+        <option value="$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/DataBaseOfShips/Ship.java" />
+        <option value="$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java" />
+        <option value="$PROJECT_DIR$/src/repositories/IRouteRepository.java" />
+        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Route.java" />
+        <option value="$PROJECT_DIR$/src/repositories/impl/DummyRouteRepository.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -385,6 +391,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -603,7 +610,11 @@
       <created>1414265866582</created>
       <updated>1414265866582</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="few methods added&#10;">
+      <created>1414430779515</created>
+      <updated>1414430779515</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -611,7 +622,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -628,7 +639,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23791541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -683,7 +694,8 @@
     <MESSAGE value="Partial Commit&#10;" />
     <MESSAGE value="main class added, add methods added, not everything works" />
     <MESSAGE value="Problem with lists fixed, few methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem with lists fixed, few methods added" />
+    <MESSAGE value="few methods added&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="few methods added&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -696,10 +708,7 @@
     <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="45" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1224">
-          <folding>
-            <element signature="e#1729#1730#0" expanded="false" />
-            <element signature="e#1760#1761#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,8 +781,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
           <folding>
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.5762712" vertical-offset="0" max-vertical-offset="413">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="0" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="935">
@@ -848,33 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.9031477" vertical-offset="885" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/repositories/IRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="31" selection-start="282" selection-end="282" vertical-scroll-proportion="0.4116223" vertical-offset="0" max-vertical-offset="413">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositories/IShipRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,52 +885,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Route.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1156">
+        <state line="201" column="14" selection-start="10862" selection-end="10862" vertical-scroll-proportion="0.91029024" vertical-offset="3072" max-vertical-offset="16932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repositories/IEmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="49" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repositories/IShipRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="200" selection-end="200" vertical-scroll-proportion="0.30357143" vertical-offset="0" max-vertical-offset="392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="11" selection-start="5678" selection-end="5678" vertical-scroll-proportion="0.33163264" vertical-offset="2012" max-vertical-offset="19635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/repositories/IRouteRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
+        <state line="10" column="22" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1598">
+        <state line="27" column="44" selection-start="488" selection-end="488" vertical-scroll-proportion="0.4362245" vertical-offset="288" max-vertical-offset="1479">
           <folding>
-            <element signature="e#1729#1730#0" expanded="false" />
-            <element signature="e#1760#1761#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyRouteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-          <folding>
-            <element signature="e#1753#1754#0" expanded="false" />
-            <element signature="e#1785#1786#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositories/IEmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="49" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+        <state line="25" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1649">
           <folding>
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#533#534#0" expanded="true" />
@@ -959,26 +962,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/User.java">
+    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Route.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="12" column="25" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="5" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-476.0" vertical-offset="0" max-vertical-offset="1717">
+        <state line="93" column="26" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0" vertical-offset="958" max-vertical-offset="1717">
           <folding>
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1105">
+          <folding>
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyRouteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="5" selection-start="679" selection-end="679" vertical-scroll-proportion="0.86989796" vertical-offset="152" max-vertical-offset="1411">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="7" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.4362245" vertical-offset="1172" max-vertical-offset="1768">
+        <state line="82" column="8" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.52040815" vertical-offset="1190" max-vertical-offset="1989">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
