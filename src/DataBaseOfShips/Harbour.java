@@ -6,7 +6,17 @@ import java.util.List;
 public class Harbour extends Entity{
 
     public List<Ship> ships;
+    public List<Route> routes;
 
+    private Route route;
+
+    public Route getRoute() {
+        return route;
+    }
+
+    public void setRoute(Route route) {
+        this.route = route;
+    }
 
     public Harbour(){
         setId(1);
@@ -16,6 +26,18 @@ public class Harbour extends Entity{
         numberOfShips = "20";
         numberOfEmployees = "300";
         this.ships = new ArrayList<Ship>();
+    }
+
+    public List<Route> getRoutes() {
+        return routes;
+    }
+
+    public void setRoutes(List<Route> routes) {
+        this.routes = routes;
+    }
+
+    public void addRoutes(Route route){
+        this.routes.add(route);
     }
 
     private String place;
@@ -71,4 +93,6 @@ public class Harbour extends Entity{
     public void setName(String name) {
         this.name = name;
     }
+
+
 }

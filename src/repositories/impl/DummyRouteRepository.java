@@ -33,25 +33,18 @@ public class DummyRouteRepository implements IRouteRepository{
     }
 
     @Override
-    public Route byHarbour(Harbour harbour) {
-        for(Route r: db.routes){
-            if(r.getAvailablePorts().contains(harbour)){
-                return r;
-            }
-        }
-        return null;
+    public List<Route> byHarbour(Harbour harbour) {
+        return byHarbour(harbour.getId());
     }
 
     @Override
-    public Route byHarbour(int harbourId) {
-        for(Route r: db.routes){
-            for(Harbour h: r.getAvailablePorts()){
-                if(h.getId()==harbourId){
-                    return r;
-                }
+    public List<Route> byHarbour(int harbourId) {
+        for(Harbour h: db.harbours){
+            if(h.getId()==harbourId){
+                return h.getRoutes();
             }
         }
-        return null;
+        return new ArrayList<Route>();
     }
 
     @Override

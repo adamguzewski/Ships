@@ -68,6 +68,14 @@ public class Route extends Entity{
         this.ships.add(ship);
     }
 
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
     public List<Harbour> getAvailablePorts() {
         return availablePorts;
     }
@@ -79,14 +87,5 @@ public class Route extends Entity{
     public void addAvailablePorts(Harbour harbour){
         this.availablePorts.add(harbour);
     }
-
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
 
 }

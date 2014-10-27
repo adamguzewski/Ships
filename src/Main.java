@@ -80,9 +80,12 @@ public class Main {
 
         titanic.addRoute(dookolaswiata);
         liniowiec1.addRoute(dookolaswiata);
+        dookolaswiata.getAvailablePorts().add(londyn);
 
 
-        System.out.println(titanic.getRoute().getName());
+
+
+     //   System.out.println(titanic.getRoute().getName());
 
      //   List<Ship> dookolaroute = catalog.getShip().byRoute(dookolaswiata);
 
@@ -95,10 +98,17 @@ public class Main {
      //   for(Employee e: catalog.getEmployee().ofShip(titanic)){
        //     System.out.println(e.getFirstName());
         //}
-        for(Route r: catalog.getRoute().byShip(titanic)){
+        for(Ship r: catalog.getShip().byRoute(dookolaswiata)){
             System.out.println(r.getName());
         }
 
+  //      for(Route r: catalog.getRoute().byHarbour(londyn)){
+    //        System.out.println(r.getName());
+      //  }
+
+        for(Harbour r: dookolaswiata.getAvailablePorts()){
+            System.out.println(r.getName());
+        }
 
 
       /*  for(Ship s: catalog.getShip().byEmployee(nowak)){

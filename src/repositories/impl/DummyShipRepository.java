@@ -26,7 +26,12 @@ public class DummyShipRepository implements IShipRepository{
 
     @Override
     public List<Ship> byRoute(int routeId) {
-     return null;
+        for(Route r: db.routes){
+            if(r.getId()==routeId){
+                return r.getShips();
+            }
+        }
+     return new ArrayList<Ship>();
     }
 
     @Override
