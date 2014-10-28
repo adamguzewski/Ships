@@ -6,8 +6,7 @@ import java.util.List;
 
 public interface IUserRepository extends IRepository<User>{
 
-    public List<User> withEmployee(Employee employee);
-    public List<User> withEmployee(String username);
-    public List<User> withEmployee(int employeeId);
+    public User byEmployee(Employee employee);
+    public User byEmployee(int employeeId);
 
 }

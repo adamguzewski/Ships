@@ -18,7 +18,7 @@ public class Ship extends Entity{
     private List<Route> routes;
     private List<Employee> employees;
     private List<Harbour> harbours;
-
+/*
     public Ship(){
         setId(1);
         name = "Titanic";
@@ -32,7 +32,7 @@ public class Ship extends Entity{
         this.routes = new ArrayList<Route>();
 
     }
-
+*/
     //private Harbour harbour;
 
     public String getName() {
@@ -99,13 +99,13 @@ public class Ship extends Entity{
         this.employees = employees;
     }
 
-    //public Harbour getHarbour() {
-      //  return harbour;
-    //}
+    public List<Harbour> getHarbours() {
+        return harbours;
+    }
 
-//    public void setHarbour(Harbour harbour) {
-  //      this.harbour = harbour;
-    //}
+    public void setHarbours(List<Harbour> harbours) {
+        this.harbours = harbours;
+    }
 
     public Route getRoute() {
         return route;

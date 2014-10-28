@@ -26,6 +26,7 @@ public class Harbour extends Entity{
         numberOfShips = "20";
         numberOfEmployees = "300";
         this.ships = new ArrayList<Ship>();
+        this.routes = new ArrayList<Route>();
     }
 
     public List<Route> getRoutes() {

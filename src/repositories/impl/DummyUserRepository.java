@@ -1,6 +1,7 @@
 package repositories.impl;
 
 import DataBaseOfShips.Employee;
+import DataBaseOfShips.Ship;
 import DataBaseOfShips.User;
 import repositories.IUserRepository;
 
@@ -13,21 +14,6 @@ public class DummyUserRepository implements IUserRepository{
     public DummyUserRepository(DummyDb db){
         super();
         this.db = db;
-    }
-
-    @Override
-    public List<User> withEmployee(Employee employee) {
-        return null;
-    }
-
-    @Override
-    public List<User> withEmployee(String username) {
-        return null;
-    }
-
-    @Override
-    public List<User> withEmployee(int employeeId) {
-        return null;
     }
 
     @Override
@@ -57,5 +43,21 @@ public class DummyUserRepository implements IUserRepository{
     @Override
     public List<User> getAll() {
         return db.users;
+    }
+
+
+    @Override
+    public User byEmployee(Employee employee) {
+        return byEmployee(employee.getId());
+    }
+
+    @Override
+    public User byEmployee(int employeeId) {
+        for(Employee e: db.employees){
+            if(e.getId()==employeeId){
+                return e.getUser();
+            }
+        }
+        return new User();
     }
 }

@@ -1,9 +1,11 @@
 package repositories.impl;
 
 import DataBaseOfShips.Harbour;
+import DataBaseOfShips.Route;
 import DataBaseOfShips.Ship;
 import repositories.IHarbourRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DummyHarbourRepository implements IHarbourRepository{
@@ -17,23 +19,34 @@ public class DummyHarbourRepository implements IHarbourRepository{
 
     @Override
     public List<Harbour> ofShips(Ship ship) {
-        return null;
+        return ofShips(ship.getId());
     }
 
     @Override
     public List<Harbour> ofShips(int shipId) {
-        return null;
+        for(Ship s: db.ships){
+            if(s.getId()==shipId){
+                return s.getHarbours();
+            }
+        }
+        return new ArrayList<Harbour>();
     }
 
     @Override
-    public List<Harbour> ofNumberOfShips(String numberOfShips) {
-        return null;
+    public List<Harbour> ofRoute(Route route) {
+        return ofRoute(route.getId());
     }
 
     @Override
-    public List<Harbour> ofNumberOfShips(int numberOfShipsId) {
-        return null;
+    public List<Harbour> ofRoute(int routeId) {
+        for(Route r: db.routes){
+            if(r.getId()==routeId){
+                return r.getAvailablePorts();
+            }
+        }
+        return new ArrayList<Harbour>();
     }
+
 
     @Override
     public void add(Harbour entity) {

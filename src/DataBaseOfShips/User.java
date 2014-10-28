@@ -7,14 +7,13 @@ public class User extends Entity{
     private Employee employee;
     private String username;
 
-
+/*
     public User(){
+        login = "Captain";
         username = "admin";
         setId(1);
-
-
     }
-
+*/
 
     public String getUsername() {
         return username;

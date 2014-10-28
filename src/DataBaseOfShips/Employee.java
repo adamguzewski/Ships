@@ -18,6 +18,15 @@ public class Employee extends Entity{
     private User user;
     private List<Ship> ships;
     private Ship ship;
+    private String actualShip;
+
+    public String getActualShip() {
+        return actualShip;
+    }
+
+    public void setActualShip(String actualShip) {
+        this.actualShip = actualShip;
+    }
 
     public Ship getShip() {
         return ship;

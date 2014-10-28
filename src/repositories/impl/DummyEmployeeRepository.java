@@ -17,8 +17,6 @@ public class DummyEmployeeRepository implements IEmployeeRepository{
         this.db = db;
     }
 
-
-
     @Override
     public List<Employee> ofShip(Ship ship) {
         return ofShip(ship.getId());
