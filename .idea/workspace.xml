@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361d4442-5cf3-4bc6-b946-ffbb4efd29b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java" afterPath="$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/impl/DummyHarbourRepository.java" afterPath="$PROJECT_DIR$/src/repositories/impl/DummyHarbourRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java" afterPath="$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/impl/DummyUserRepository.java" afterPath="$PROJECT_DIR$/src/repositories/impl/DummyUserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBaseOfShips/Employee.java" afterPath="$PROJECT_DIR$/src/DataBaseOfShips/Employee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java" afterPath="$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/IHarbourRepository.java" afterPath="$PROJECT_DIR$/src/repositories/IHarbourRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repositories/IUserRepository.java" afterPath="$PROJECT_DIR$/src/repositories/IUserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBaseOfShips/Route.java" afterPath="$PROJECT_DIR$/src/DataBaseOfShips/Route.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBaseOfShips/Ship.java" afterPath="$PROJECT_DIR$/src/DataBaseOfShips/Ship.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBaseOfShips/User.java" afterPath="$PROJECT_DIR$/src/DataBaseOfShips/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ships.iws" />
@@ -85,52 +79,10 @@
       <file leaf-file-name="Ship.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Ship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
+            <state line="131" column="0" selection-start="2636" selection-end="2636" vertical-scroll-proportion="0.0" vertical-offset="1036" max-vertical-offset="1496">
               <folding>
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1375#1376#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
-                <element signature="e#1454#1455#0" expanded="true" />
-                <element signature="e#1494#1495#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1784#1785#0" expanded="true" />
-                <element signature="e#1832#1833#0" expanded="true" />
-                <element signature="e#1876#1877#0" expanded="true" />
-                <element signature="e#1908#1909#0" expanded="true" />
-                <element signature="e#1966#1967#0" expanded="true" />
-                <element signature="e#2008#2009#0" expanded="true" />
-                <element signature="e#2050#2051#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2136#2137#0" expanded="true" />
-                <element signature="e#2176#2177#0" expanded="true" />
-                <element signature="e#2207#2208#0" expanded="true" />
-                <element signature="e#2235#2236#0" expanded="true" />
-                <element signature="e#2276#2277#0" expanded="true" />
-                <element signature="e#2310#2311#0" expanded="true" />
-                <element signature="e#2442#2443#0" expanded="true" />
-                <element signature="e#2473#2474#0" expanded="true" />
-                <element signature="e#2522#2523#0" expanded="true" />
-                <element signature="e#2558#2559#0" expanded="true" />
+                <element signature="method#addEmployees#0;class#Ship#0" expanded="false" />
+                <element signature="method#addRoute#0;class#Ship#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -139,16 +91,9 @@
       <file leaf-file-name="Harbour.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1360">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
               <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
+                <element signature="method#addRoutes#0;class#Harbour#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -183,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="80" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2482">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,15 +142,8 @@
       <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-              <folding>
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -219,10 +157,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="2" selection-start="280" selection-end="280" vertical-scroll-proportion="0.6505102" vertical-offset="0" max-vertical-offset="969">
+            <state line="4" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="969">
               <folding>
                 <element signature="e#314#315#0" expanded="true" />
                 <element signature="e#345#346#0" expanded="true" />
@@ -298,19 +236,19 @@
         <option value="$PROJECT_DIR$/src/repositories/IEmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/IShipRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/IRouteRepository.java" />
-        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Route.java" />
         <option value="$PROJECT_DIR$/src/repositories/impl/DummyRouteRepository.java" />
-        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java" />
         <option value="$PROJECT_DIR$/src/repositories/impl/DummyShipRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/IHarbourRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/impl/DummyHarbourRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/impl/DummyEmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/repositories/IUserRepository.java" />
-        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Employee.java" />
         <option value="$PROJECT_DIR$/src/repositories/impl/DummyUserRepository.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Ship.java" />
         <option value="$PROJECT_DIR$/src/DataBaseOfShips/User.java" />
+        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Employee.java" />
+        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java" />
+        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Route.java" />
+        <option value="$PROJECT_DIR$/src/DataBaseOfShips/Ship.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -700,7 +638,11 @@
       <created>1414439826708</created>
       <updated>1414439826708</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Everything Works!">
+      <created>1414523777004</created>
+      <updated>1414523777004</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -782,7 +724,8 @@
     <MESSAGE value="Problem with lists fixed, few methods added" />
     <MESSAGE value="few methods added&#10;" />
     <MESSAGE value="few methods added (Route, Ship)&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="few methods added (Route, Ship)&#10;" />
+    <MESSAGE value="Everything Works!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything Works!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -872,50 +815,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
           <folding>
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2050#2051#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2207#2208#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-            <element signature="e#2276#2277#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2442#2443#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="true" />
-            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="method#addEmployees#0;class#Ship#0" expanded="false" />
+            <element signature="method#addRoute#0;class#Ship#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -923,14 +824,7 @@
     <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="33" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="2040">
-          <folding>
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -997,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.33163264" vertical-offset="9424" max-vertical-offset="12631">
@@ -1048,29 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Route.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="41" selection-start="1784" selection-end="1784" vertical-scroll-proportion="1.3443878" vertical-offset="459" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1360">
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyHarbourRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="40" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1343">
@@ -1107,20 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <folding>
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/repositories/impl/DummyUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="5" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1054">
@@ -1142,70 +992,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="80" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2482">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Harbour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#addRoutes#0;class#Harbour#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <folding>
+            <element signature="method#addShips#0;class#Route#0" expanded="false" />
+            <element signature="method#addAvailablePorts#0;class#Route#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
+        <state line="131" column="0" selection-start="2636" selection-end="2636" vertical-scroll-proportion="0.0" vertical-offset="1036" max-vertical-offset="1496">
           <folding>
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2050#2051#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2207#2208#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-            <element signature="e#2276#2277#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2442#2443#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="true" />
-            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="method#addEmployees#0;class#Ship#0" expanded="false" />
+            <element signature="method#addRoute#0;class#Ship#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataBaseOfShips/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="280" selection-end="280" vertical-scroll-proportion="0.6505102" vertical-offset="0" max-vertical-offset="969">
+        <state line="4" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="969">
           <folding>
             <element signature="e#314#315#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
@@ -1223,6 +1055,15 @@
             <element signature="e#791#792#0" expanded="true" />
             <element signature="e#841#842#0" expanded="true" />
             <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

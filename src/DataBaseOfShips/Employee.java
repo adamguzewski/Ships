@@ -20,22 +20,8 @@ public class Employee extends Entity{
     private Ship ship;
     private String actualShip;
 
-    public String getActualShip() {
-        return actualShip;
-    }
 
-    public void setActualShip(String actualShip) {
-        this.actualShip = actualShip;
-    }
-
-    public Ship getShip() {
-        return ship;
-    }
-
-    public void setShip(Ship ship) {
-        this.ship = ship;
-    }
-
+/*
     public Employee(){
         firstName = "Jan";
         surName = "Kowalski";
@@ -51,6 +37,23 @@ public class Employee extends Entity{
         user = new User();
         this.ships = new ArrayList<Ship>();
 
+    }
+*/
+
+    public String getActualShip() {
+        return actualShip;
+    }
+
+    public void setActualShip(String actualShip) {
+        this.actualShip = actualShip;
+    }
+
+    public Ship getShip() {
+        return ship;
+    }
+
+    public void setShip(Ship ship) {
+        this.ship = ship;
     }
 
     public User getUser(){

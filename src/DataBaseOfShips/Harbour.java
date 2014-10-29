@@ -7,17 +7,14 @@ public class Harbour extends Entity{
 
     public List<Ship> ships;
     public List<Route> routes;
-
+    private String place;
+    private String size;
+    private String numberOfShips;
+    private String numberOfEmployees;
+    private String name;
     private Route route;
 
-    public Route getRoute() {
-        return route;
-    }
-
-    public void setRoute(Route route) {
-        this.route = route;
-    }
-
+/*
     public Harbour(){
         setId(1);
         name = "QueensPort";
@@ -28,6 +25,7 @@ public class Harbour extends Entity{
         this.ships = new ArrayList<Ship>();
         this.routes = new ArrayList<Route>();
     }
+*/
 
     public List<Route> getRoutes() {
         return routes;
@@ -41,11 +39,13 @@ public class Harbour extends Entity{
         this.routes.add(route);
     }
 
-    private String place;
-    private String size;
-    private String numberOfShips;
-    private String numberOfEmployees;
-    private String name;
+    public Route getRoute() {
+        return route;
+    }
+
+    public void setRoute(Route route) {
+        this.route = route;
+    }
 
     public List<Ship> getShips() {
         return ships;

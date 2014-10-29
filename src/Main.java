@@ -94,9 +94,9 @@ public class Main {
 
         kowalski.getShips().add(titanic);
         titanic.getEmployees().add(kowalski);
-     //   System.out.println(titanic.getRoute().getName());
-           nowak.setUser(admin);
-            admin.setLogin("KapitanBomba");
+     // System.out.println(titanic.getRoute().getName());
+        nowak.setUser(admin);
+        admin.setLogin("KapitanBomba");
         admin.setUsername("Kapitan");
         nowak.setId(10);
 
@@ -104,30 +104,29 @@ public class Main {
 
         System.out.println(catalog.getUser().byEmployee(pracownik).getUsername());
 
-     //   List<Ship> dookolaroute = catalog.getShip().byRoute(dookolaswiata);
+     // List<Ship> dookolaroute = catalog.getShip().byRoute(dookolaswiata);
 
 
-      //  System.out.println(catalog.getShip().byRoute(dookolaswiata).getName());
+      //System.out.println(catalog.getShip().byRoute(dookolaswiata).getName());
 
 
-//        System.out.println(catalog.getRoute().byHarbour(londyn).getName());
+//      System.out.println(catalog.getRoute().byHarbour(londyn).getName());
 
-     //   for(Employee e: catalog.getEmployee().ofShip(titanic)){
-       //     System.out.println(e.getFirstName());
-        //}
-        //for(Ship r: catalog.getShip().byRoute(dookolaswiata)){
-          //  System.out.println(r.getName());
-        //}
+     // for(Employee e: catalog.getEmployee().ofShip(titanic)){
+      //System.out.println(e.getFirstName());
+      //}
+      //for(Ship r: catalog.getShip().byRoute(dookolaswiata)){
+      //System.out.println(r.getName());
+      //}
 
-  //      for(Route r: catalog.getRoute().byHarbour(londyn)){
-    //        System.out.println(r.getName());
-      //  }
+  //   for(Route r: catalog.getRoute().byHarbour(londyn)){
+    // System.out.println(r.getName());
+    // }
 
-       // System.out.println(catalog.getUser().byEmployee(10).getLogin());
-
-        //for(Harbour r: dookolaswiata.getAvailablePorts()){
-          //  System.out.println(r.getName());
-        //}
+    // System.out.println(catalog.getUser().byEmployee(10).getLogin());
+     //for(Harbour r: dookolaswiata.getAvailablePorts())
+     //System.out.println(r.getName());
+     //}
 
         //System.out.println(catalog.getShip().byEmployee(kowalski).getName());
       /*  for(Ship s: catalog.getShip().byEmployee(nowak)){

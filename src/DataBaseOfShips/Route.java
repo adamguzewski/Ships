@@ -9,12 +9,10 @@ public class Route extends Entity{
     private String name;
     private String timeOfCrossing;
     private int price;
-
     public List<Harbour> availablePorts;
     public List<Ship> ships;
-
     private Ship ship;
-
+/*
     public Route(){
         setId(1);
         name = "NewYork-Gdynia";
@@ -23,6 +21,7 @@ public class Route extends Entity{
         this.availablePorts = new ArrayList<Harbour>();
         this.ships = new ArrayList<Ship>();
     }
+*/
 
     public Ship getShip() {
         return ship;

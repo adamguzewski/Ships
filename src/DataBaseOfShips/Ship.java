@@ -13,8 +13,6 @@ public class Ship extends Entity{
     private String maxCharge;
     private String numberOfCrew;
     private Route route;
-
-
     private List<Route> routes;
     private List<Employee> employees;
     private List<Harbour> harbours;
@@ -121,14 +119,11 @@ public class Ship extends Entity{
 
     public List<Route> getRoutes() {
         return routes;
-
-
     }
 
     public void setRoutes(List<Route> routes) {
         this.routes = routes;
     }
-
 
     public void addRoute(Route route){
         this.routes.add(route);
