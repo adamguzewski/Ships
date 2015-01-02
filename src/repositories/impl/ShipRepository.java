@@ -14,7 +14,7 @@ import unitOfWork.IUnitOfWork;
 
 public class ShipRepository extends Repository<Ship> implements IShipRepository{
 
-	protected ShipRepository(Connection connection, IEntityBuilder<Ship> builder, IUnitOfWork uow) {
+	public ShipRepository(Connection connection, IEntityBuilder<Ship> builder, IUnitOfWork uow) {
 		super(connection, builder, uow);
 
 	}

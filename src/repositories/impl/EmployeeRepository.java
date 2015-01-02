@@ -16,7 +16,7 @@ import unitOfWork.IUnitOfWork;
 
 public class EmployeeRepository extends Repository<Employee> implements IEmployeeRepository{
 
-	protected EmployeeRepository(Connection connection, IEntityBuilder<Employee> builder, IUnitOfWork uow) {
+	public EmployeeRepository(Connection connection, IEntityBuilder<Employee> builder, IUnitOfWork uow) {
 		super(connection, builder, uow);
 		// TODO Auto-generated constructor stub
 	}
@@ -41,24 +41,34 @@ public class EmployeeRepository extends Repository<Employee> implements IEmploye
 
 	@Override
 	protected String getInsertQuery() {
-		return null;
+		return "INSERT INTO employees(firstName, surName, age, actualShip) VALUES (?,?,?,?)";
 	}
 
 	@Override
 	protected String getUpdateQuery() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+		return "UPDATE employees SET (firstName, surName, age, actualShip) = (?,?,?,?) WHERE id=?";
+		}
 
 	@Override
 	protected String getTableName() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return "employees";
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Employee> ofShip(int shipId) {
-		// TODO Auto-generated method stub
+		try {
+			selectById.setInt(1, shipId);
+			ResultSet rs = selectById.executeQuery();
+			while(rs.next())
+			{
+				return (List<Employee>) builder.build(rs);
+			}
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		return null;
 	}
 

@@ -17,7 +17,7 @@ public class DummyHarbourRepository implements IHarbourRepository{
         this.db = db;
     }
 
-    @Override
+/*    @Override
     public List<Harbour> ofShips(Ship ship) {
         return ofShips(ship.getId());
     }
@@ -36,7 +36,7 @@ public class DummyHarbourRepository implements IHarbourRepository{
     public List<Harbour> ofRoute(Route route) {
         return ofRoute(route.getId());
     }
-
+*/
     @Override
     public List<Harbour> ofRoute(int routeId) {
         for(Route r: db.routes){

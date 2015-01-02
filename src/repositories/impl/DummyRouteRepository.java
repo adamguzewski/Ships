@@ -17,10 +17,10 @@ public class DummyRouteRepository implements IRouteRepository{
         this.db = db;
     }
 
-    @Override
-    public List<Route> byShip(Ship ship) {
-        return byShip(ship.getId());
-    }
+//    @Override
+//    public List<Route> byShip(Ship ship) {
+//        return byShip(ship.getId());
+//    }
 
     @Override
     public List<Route> byShip(int shipId) {
@@ -32,20 +32,20 @@ public class DummyRouteRepository implements IRouteRepository{
         return new ArrayList<Route>();
     }
 
-    @Override
-    public List<Route> byHarbour(Harbour harbour) {
-        return byHarbour(harbour.getId());
-    }
+//    @Override
+//    public List<Route> byHarbour(Harbour harbour) {
+//        return byHarbour(harbour.getId());
+//    }
 
-    @Override
-    public List<Route> byHarbour(int harbourId) {
-        for(Harbour h: db.harbours){
-            if(h.getId()==harbourId){
-                return h.getRoutes();
-            }
-        }
-        return new ArrayList<Route>();
-    }
+//    @Override
+//    public List<Route> byHarbour(int harbourId) {
+//       for(Harbour h: db.harbours){
+//            if(h.getId()==harbourId){
+ //               return h.getRoutes();
+ //           }
+   //     }
+     //   return new ArrayList<Route>();
+   // }
 
     @Override
     public void add(Route entity) {
